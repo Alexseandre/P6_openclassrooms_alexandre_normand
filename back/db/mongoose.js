@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connectDb =  () => {
-    mongoose.connect('mongodb://localhost:27017/opc-training', {
+    mongoose.connect('mongodb+srv://alex:motdepassevisiblesurgithub@cluster0.vdyiu.mongodb.net/?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
